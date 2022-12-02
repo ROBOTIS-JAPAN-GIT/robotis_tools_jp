@@ -3,8 +3,8 @@
 # Copyright (c) 2020, ROBOTIS CO., LTD.
 
 echo ""
-echo "[Note] Target OS version  >>> Ubuntu 20.04 (Focal Fossa)"
-echo "[Note] Target ROS version >>> ROS 2 Foxy Fitzroy"
+echo "[Note] Target OS version  >>> Ubuntu 22.04 (Jammy Jellyfish)"
+echo "[Note] Target ROS version >>> ROS 2 Humble Hawksbill"
 echo "[Note] Colcon workspace   >>> $HOME/colcon_ws"
 echo ""
 echo "PRESS [ENTER] TO CONTINUE THE INSTALLATION"
@@ -12,7 +12,7 @@ echo "IF YOU WANT TO CANCEL, PRESS [CTRL] + [C]"
 read
 
 echo "[Set the target ROS version and name of colcon workspace]"
-name_ros_version=${name_ros_version:="foxy"}
+name_ros_version=${name_ros_version:="humble"}
 name_colcon_workspace=${name_colcon_workspace:="colcon_ws"}
 
 echo "[Set Locale]"
